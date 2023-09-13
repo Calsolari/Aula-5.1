@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    padding-top: 25vh;
+    height: 10vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-container{
+    cursor: pointer;
+    background-color: rgb(247, 252, 253);
+    border: 2px solid rgb(164, 255, 193);
+    border-radius: 24px;
+    height: 110px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    gap: 12px;
+    font-size: 12px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.name_number{
+    display: flex;
+    gap: 1rem;
+}
+
+p{
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+h1{
+    padding-left: 1rem;
+}
+
+h2{
+    background-color: rgb(92, 232, 162);
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.status{
+    position: relative;
+    left: 260px;
+    top: -50px;
+}
+
+.rede img{
+    background-color:  rgb(92, 232, 162);
+    position: relative;
+    left: 10em;
+    top: 24px;
+    width: 45px;
+    height: 45px;
+}
